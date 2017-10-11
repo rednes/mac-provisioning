@@ -1,0 +1,10 @@
+---
+- name: homebrew update
+  homebrew:
+    update_homebrew: yes
+
+- name: homebrew packages install
+  homebrew:
+    name: '{{ item.name }}'
+    state: '{{ item.state | default("present") }}'
+  with_items: '{{ homebrew_packages }}'

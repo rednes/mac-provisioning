@@ -1,0 +1,28 @@
+---
+# The variables file used by the playbooks in the mac group.
+
+homebrew_packages:
+  - name: ansible
+  - name: chromedriver
+  - name: git
+  - name: git-secrets
+  - name: gnuplot
+  - name: heroku
+  - name: jq
+  - name: lv
+  - name: mecab
+  - name: mongodb
+  - name: mysql
+  - name: nmap
+  - name: octave
+  - name: openssl
+  - name: phantomjs
+  - name: pkg-config
+  - name: postgresql
+  - name: pyenv
+  - name: pyenv-virtualenv
+  - name: python
+  - name: rbenv
+  - name: ruby-build
+  - name: sqlite
+  - name: wget
