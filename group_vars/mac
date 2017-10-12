@@ -26,3 +26,13 @@ homebrew_packages:
   - name: ruby-build
   - name: sqlite
   - name: wget
+
+pip_packages:
+  - name: awscli
+  - name: beautifulsoup4
+  - name: boto
+  - name: numpy
+  - name: pymongo
+  - name: robobrowser
+  - name: scrapy
+  - name: selenium
