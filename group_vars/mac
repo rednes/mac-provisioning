@@ -1,3 +1,4 @@
+
 ---
 # The variables file used by the playbooks in the mac group.
 
@@ -19,20 +20,31 @@ homebrew_packages:
   - name: phantomjs
   - name: pkg-config
   - name: postgresql
-  - name: pyenv
-  - name: pyenv-virtualenv
   - name: python
+  - name: python3
   - name: rbenv
   - name: ruby-build
   - name: sqlite
   - name: wget
 
 pip_packages:
+  - name: ansible
   - name: awscli
   - name: beautifulsoup4
   - name: boto
   - name: numpy
   - name: pymongo
-  - name: robobrowser
+  - name: robobrowser 
   - name: scrapy
   - name: selenium
+
+rbenv:
+  default_ruby: 2.4.1
+  rubies:
+    - version: 2.2.3
+    - version: 2.3.0
+    - version: 2.3.1
+    - version: 2.4.1
+
+      
+    

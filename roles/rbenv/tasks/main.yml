@@ -1,0 +1,7 @@
+---
+- name: install ruby {{ item.version }}
+  shell: $SHELL -lc "rbenv install --skip-existing {{ item.version }}"
+  with_items: '{{ rbenv.rubies }}'
+
+- name: set ruby {{ rbenv.default_ruby }} 
+  shell: $SHELL -lc "rbenv global {{ rbenv.default_ruby }} && rbenv rehash"

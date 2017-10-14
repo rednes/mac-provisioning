@@ -2,4 +2,5 @@
   pip:
     name: '{{ item.name }}'
     state: '{{ item.state | default("present") }}'
+    executable: '{{item.executable | default("pip3")}}'
   with_items: '{{ pip_packages }}'
