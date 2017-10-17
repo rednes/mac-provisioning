@@ -1,0 +1,7 @@
+---
+- name: install python {{ item.version }}
+  shell: $SHELL -lc "pyenv install --skip-existing {{ item.version }}"
+  with_items: '{{ pyenv.pythons }}'
+
+- name: set python {{ pyenv.default_python }}
+  shell: $SHELL -lc "pyenv global {{ pyenv.default_python }} && pyenv rehash"

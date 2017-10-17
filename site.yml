@@ -1,7 +1,9 @@
 ---
 - hosts: localhost
   connection: local
+  gather_facts: False
   roles:
     - homebrew
+    - pyenv
     - pip
     - rbenv
