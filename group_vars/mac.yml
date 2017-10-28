@@ -36,6 +36,8 @@ pip_packages:
   - name: beautifulsoup4
   - name: boto
   - name: boto3
+  - name: django
+  - name: jinja2
   - name: numpy
   - name: pymongo
   - name: robobrowser
