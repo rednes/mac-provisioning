@@ -7,6 +7,7 @@ homebrew_packages:
   - name: git-secrets
   - name: gnuplot
   - name: go
+  - name: guetzli
   - name: heroku
   - name: jq
   - name: lv
