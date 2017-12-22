@@ -25,6 +25,7 @@ homebrew_packages:
   - name: ruby-build
   - name: sqlite
   - name: tree
+  - name: vagrant-completion
   - name: wget
 
 pyenv:
