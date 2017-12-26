@@ -11,7 +11,7 @@ My mac-provisoning by Homebrew and Ansible.
 
 ## Usage
 ```
-$ git clone git@github.com:rednes/mac-provisioning.git
+$ git clone https://github.com/rednes/mac-provisioning.git
 $ cd mac-provisioning
-$ ansible-playbook -i hosts site.yml -vv
+$ ansible-playbook site.yml -vv
 ```
