@@ -4,6 +4,8 @@
 homebrew_packages:
   - name: chromedriver
   - name: docker
+  - name: docker-compose
+  - name: docker-machine
   - name: git
   - name: git-secrets
   - name: gnuplot
