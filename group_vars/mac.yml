@@ -24,6 +24,7 @@ homebrew_packages:
   - name: rbenv
   - name: ruby-build
   - name: sqlite
+  - name: travis
   - name: tree
   - name: vagrant-completion
   - name: wget
