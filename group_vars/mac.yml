@@ -1,6 +1,9 @@
 ---
 # The variables file used by the playbooks in the mac group.
 
+homebrew_taps:
+  - tap: caskroom/cask
+
 homebrew_packages:
   - name: chromedriver
   - name: git
@@ -49,6 +52,9 @@ pip_packages:
   - name: robobrowser
   - name: scrapy
   - name: selenium
+
+homebrew_cask_packages:
+  - name: docker-toolbox
 
 rbenv:
   default_ruby: 2.4.1

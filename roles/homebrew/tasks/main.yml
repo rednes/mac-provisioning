@@ -3,9 +3,21 @@
   homebrew:
     update_homebrew: yes
 
-- name: homebrew packages install
+- name: Add homebrew tap repositories
+  homebrew_tap:
+    tap: '{{ item.tap }}'
+    state: '{{ item.state | default("present") }}'
+  with_items: '{{ homebrew_taps }}'
+
+- name: Install Homebrew packages
   homebrew:
     name: '{{ item.name }}'
     state: '{{ item.state | default("present") }}'
     install_options: '{{ item.install_options | default() | join(",") if item.install_options is not string else item.install_options }}'
   with_items: '{{ homebrew_packages }}'
+
+- name: Install Homebrew cask packages
+  homebrew_cask:
+    name: '{{ item.name }}'
+    state: '{{ item.state | default("present") }}'
+  with_items: '{{ homebrew_cask_packages }}'
