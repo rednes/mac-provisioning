@@ -8,13 +8,15 @@ homebrew_packages:
   - name: gnuplot
   - name: go
   - name: guetzli
-  - name: heroku
+  - {name: heroku, state: absent, install_options: force}
   - name: jq
   - name: lv
   - name: mecab
   - name: mongodb
   - name: mysql
   - name: nmap
+  - {name: node, state: absent, install_options: force}
+  - name: nodebrew
   - name: octave
   - name: openssl
   - name: phantomjs
@@ -55,3 +57,12 @@ rbenv:
     - version: 2.3.0
     - version: 2.3.1
     - version: 2.4.1
+
+nodebrew:
+  default_node: v9.4.0
+  nodes:
+    - version: v6.10.3
+    - version: v9.4.0
+
+npm_packages:
+  - name: npm

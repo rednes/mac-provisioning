@@ -1,0 +1,14 @@
+---
+- name: create directory for nodebrew
+  file:
+    path: ~/.nodebrew/src
+    state: directory
+    mode: 0755
+
+- name: install node {{ item.version }}
+  shell: $SHELL -lc "nodebrew install-binary {{ item.version }}"
+  ignore_errors: yes
+  with_items: '{{ nodebrew.nodes }}'
+
+- name: set node {{ nodebrew.default_node }}
+  shell: $SHELL -lc "nodebrew use {{ nodebrew.default_node }}"

@@ -7,3 +7,5 @@
     - pyenv
     - pip
     - rbenv
+    - nodebrew
+    - npm
