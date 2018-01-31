@@ -66,3 +66,4 @@ nodebrew:
 
 npm_packages:
   - name: npm
+  - name: typescript
