@@ -2,5 +2,5 @@
   npm:
     name: '{{ item.name }}'
     state: '{{ item.state | default("present") }}'
-    global: '{{ item.global | default("yes")}}'
+    global: '{{ item.global | default("yes") }}'
   with_items: '{{ npm_packages }}'
