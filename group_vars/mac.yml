@@ -1,4 +1,3 @@
----
 # The variables file used by the playbooks in the mac group.
 
 homebrew_taps:
@@ -6,6 +5,7 @@ homebrew_taps:
 
 homebrew_packages:
   - name: chromedriver
+  - name: editorconfig
   - name: git
   - name: git-secrets
   - name: gnuplot
