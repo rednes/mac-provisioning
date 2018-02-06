@@ -75,3 +75,4 @@ nodebrew:
 npm_packages:
   - name: npm
   - name: typescript
+  - name: aws-sam-local
