@@ -2,10 +2,12 @@
 
 homebrew_taps:
   - tap: caskroom/cask
+  - tap: kyoshidajp/ghkw
 
 homebrew_packages:
   - name: chromedriver
   - name: editorconfig
+  - name: ghkw
   - name: git
   - name: git-secrets
   - name: gnuplot
