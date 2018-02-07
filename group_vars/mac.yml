@@ -12,7 +12,7 @@ homebrew_packages:
   - name: git-secrets
   - name: gnuplot
   - name: go
-  - name: guetzli
+  - {name: guetzli, state: absent, install_options: force}
   - {name: heroku, state: absent, install_options: force}
   - name: jq
   - name: lv
@@ -44,16 +44,17 @@ pyenv:
 pip_packages:
   - name: ansible
   - name: awscli
-  - name: beautifulsoup4
+  - { name: beautifulsoup4, state: absent }
   - name: boto
   - name: boto3
-  - name: django
+  - { name: django, state: absent }
   - name: jinja2
-  - name: numpy
-  - name: pymongo
-  - name: robobrowser
-  - name: scrapy
-  - name: selenium
+  - name: localstack
+  - { name: numpy, state: absent }
+  - { name: pymongo, state: absent }
+  - { name: robobrowser, state: absent }
+  - { name: scrapy, state: absent }
+  - { name: selenium, state: absent }
 
 homebrew_cask_packages:
   - name: docker-toolbox
@@ -61,9 +62,6 @@ homebrew_cask_packages:
 rbenv:
   default_ruby: 2.4.1
   rubies:
-    - version: 2.2.3
-    - version: 2.3.0
-    - version: 2.3.1
     - version: 2.4.1
 
 nodebrew:
@@ -73,6 +71,6 @@ nodebrew:
     - version: v9.4.0
 
 npm_packages:
-  - name: npm
-  - name: typescript
   - name: aws-sam-local
+  - name: npm
+  - { name: typescript, state: absent }
