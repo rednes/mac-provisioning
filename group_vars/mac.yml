@@ -15,6 +15,9 @@ homebrew_packages:
   - {name: guetzli, state: absent, install_options: force}
   - {name: heroku, state: absent, install_options: force}
   - name: jq
+  - {name: kibana, state: absent, install_options: force}
+  - {name: kibana@5.6, state: absent, install_options: force}
+  - {name: kibana@4.4, state: absent, install_options: force}
   - name: lv
   - name: mecab
   - name: mongodb
@@ -30,6 +33,7 @@ homebrew_packages:
   - name: pyenv
   - name: rbenv
   - name: ruby-build
+  - name: screen
   - name: sqlite
   - name: travis
   - name: tree
