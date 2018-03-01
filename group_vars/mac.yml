@@ -38,6 +38,7 @@ homebrew_packages:
   - name: travis
   - name: tree
   - name: vagrant-completion
+  - name: vim
   - name: wget
 
 pyenv:
