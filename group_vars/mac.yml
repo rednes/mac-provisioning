@@ -5,6 +5,7 @@ homebrew_taps:
   - tap: kyoshidajp/ghkw
 
 homebrew_packages:
+  - name: autojump
   - name: chromedriver
   - name: editorconfig
   - name: ghkw
