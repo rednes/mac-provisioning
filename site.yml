@@ -4,7 +4,6 @@
   gather_facts: False
   roles:
     - homebrew
-    - pyenv
     - pip
     - rbenv
     - nodebrew

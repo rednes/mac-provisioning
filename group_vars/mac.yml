@@ -31,7 +31,8 @@ homebrew_packages:
   - name: phantomjs
   - name: pkg-config
   - name: postgresql
-  - name: pyenv
+  - {name: pyenv, state: absent, installoptions: force}
+  - name: python
   - name: rbenv
   - name: ruby-build
   - name: screen
@@ -41,11 +42,6 @@ homebrew_packages:
   - name: vagrant-completion
   - name: vim
   - name: wget
-
-pyenv:
-  default_python: 3.6.3
-  pythons:
-    - version: 3.6.3
 
 pip_packages:
   - name: ansible
