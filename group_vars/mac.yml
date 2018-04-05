@@ -5,6 +5,7 @@ homebrew_taps:
   - tap: kyoshidajp/ghkw
 
 homebrew_packages:
+  - { name: ansible, state: absent, install_options: force }
   - name: autojump
   - name: chromedriver
   - name: editorconfig
