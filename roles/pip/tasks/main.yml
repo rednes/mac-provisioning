@@ -1,6 +1,6 @@
 - name: pip packages install
   pip:
     name: '{{ item.name }}'
-    state: '{{ item.state | default("present") }}'
+    state: '{{ item.state | default("latest") }}'
     executable: '{{item.executable | default("pip3")}}'
   with_items: '{{ pip_packages }}'
