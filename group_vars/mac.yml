@@ -9,17 +9,20 @@ homebrew_packages:
   - name: autojump
   - name: chromedriver
   - name: editorconfig
+  - name: emacs
   - name: ghkw
   - name: git
   - name: git-secrets
   - name: gnuplot
   - name: go
+  - name: graphviz
   - { name: guetzli, state: absent, install_options: force }
   - { name: heroku, state: absent, install_options: force }
   - name: jq
   - { name: kibana, state: absent, install_options: force }
   - { name: kibana@5.6, state: absent, install_options: force }
   - { name: kibana@4.4, state: absent, install_options: force }
+  - name: less
   - name: lv
   - name: mecab
   - name: mongodb
@@ -30,6 +33,7 @@ homebrew_packages:
   - name: octave
   - name: openssl
   - name: phantomjs
+  - name: plantuml
   - name: pkg-config
   - name: postgresql
   - { name: pyenv, state: absent, installoptions: force }
@@ -39,6 +43,7 @@ homebrew_packages:
   - name: screen
   - name: sqlite
   - name: tig
+  - name: tmux
   - name: travis
   - name: tree
   - name: vagrant-completion
@@ -55,6 +60,7 @@ pip_packages:
   - name: jinja2
   - name: localstack
   - { name: numpy, state: absent }
+  - name: pip
   - { name: pymongo, state: absent }
   - { name: robobrowser, state: absent }
   - { name: scrapy, state: absent }
@@ -78,4 +84,5 @@ nodebrew:
 npm_packages:
   - name: aws-sam-local
   - name: npm
+  - name: npm-check-updates
   - { name: typescript, state: absent }
