@@ -14,25 +14,25 @@ homebrew_packages:
   - name: git-secrets
   - name: gnuplot
   - name: go
-  - {name: guetzli, state: absent, install_options: force}
-  - {name: heroku, state: absent, install_options: force}
+  - { name: guetzli, state: absent, install_options: force }
+  - { name: heroku, state: absent, install_options: force }
   - name: jq
-  - {name: kibana, state: absent, install_options: force}
-  - {name: kibana@5.6, state: absent, install_options: force}
-  - {name: kibana@4.4, state: absent, install_options: force}
+  - { name: kibana, state: absent, install_options: force }
+  - { name: kibana@5.6, state: absent, install_options: force }
+  - { name: kibana@4.4, state: absent, install_options: force }
   - name: lv
   - name: mecab
   - name: mongodb
   - name: mysql
   - name: nmap
-  - {name: node, state: absent, install_options: force}
+  - { name: node, state: absent, install_options: force }
   - name: nodebrew
   - name: octave
   - name: openssl
   - name: phantomjs
   - name: pkg-config
   - name: postgresql
-  - {name: pyenv, state: absent, installoptions: force}
+  - { name: pyenv, state: absent, installoptions: force }
   - name: python
   - name: rbenv
   - name: ruby-build
