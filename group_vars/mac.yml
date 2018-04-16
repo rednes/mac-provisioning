@@ -10,6 +10,7 @@ homebrew_packages:
   - name: chromedriver
   - name: editorconfig
   - name: emacs
+  - name: fzf
   - name: ghkw
   - name: git
   - name: git-secrets
