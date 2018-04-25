@@ -59,6 +59,7 @@ pip_packages:
   - name: boto3
   - { name: django, state: absent }
   - name: jinja2
+  - name: json2yaml
   - name: localstack
   - { name: numpy, state: absent }
   - name: pip
