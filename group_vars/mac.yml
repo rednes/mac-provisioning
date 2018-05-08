@@ -42,6 +42,7 @@ homebrew_packages:
   - name: rbenv
   - name: ruby-build
   - name: screen
+  - { name: sphinx, state: absent, installoptions: force }
   - name: sqlite
   - name: tig
   - name: tmux
@@ -67,6 +68,7 @@ pip_packages:
   - { name: robobrowser, state: absent }
   - { name: scrapy, state: absent }
   - { name: selenium, state: absent }
+  - name: sphinx
 
 homebrew_cask_packages:
   - name: docker-toolbox
