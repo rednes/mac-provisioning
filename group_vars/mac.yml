@@ -57,6 +57,7 @@ homebrew_packages:
 pip_packages:
   - name: ansible
   - name: awscli
+  - name: aws-sam-cli
   - { name: beautifulsoup4, state: absent }
   - name: boto
   - name: boto3
@@ -88,7 +89,7 @@ nodebrew:
     - version: v9.4.0
 
 npm_packages:
-  - name: aws-sam-local
+  - { name: aws-sam-local, state: absent }
   - name: npm
   - name: npm-check-updates
   - name: textlint
