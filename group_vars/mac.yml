@@ -10,6 +10,7 @@ homebrew_packages:
   - name: chromedriver
   - name: editorconfig
   - name: emacs
+  - name: fish
   - name: fzf
   - name: ghkw
   - name: git
@@ -51,6 +52,7 @@ homebrew_packages:
   - name: vagrant-completion
   - name: vim
   - name: wget
+  - name: zsh
 
 pip_packages:
   - name: ansible
