@@ -90,7 +90,7 @@ nodebrew:
 
 npm_packages:
   - { name: aws-sam-local, state: absent }
-  - name: npm
+  - name: npm@lts
   - name: npm-check-updates
   - name: textlint
   - name: textlint-rule-max-ten
