@@ -45,6 +45,7 @@ homebrew_packages:
   - name: screen
   - { name: sphinx, state: absent, installoptions: force }
   - name: sqlite
+  - name: terraform
   - name: tig
   - name: tmux
   - name: travis
