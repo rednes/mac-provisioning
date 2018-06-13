@@ -1,7 +1,7 @@
 # The variables file used by the playbooks in the mac group.
 
 homebrew_taps:
-  - tap: caskroom/cask
+  - tap: homebrew/cask
   - tap: kyoshidajp/ghkw
 
 homebrew_packages:
