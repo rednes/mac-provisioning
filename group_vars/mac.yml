@@ -21,6 +21,7 @@ homebrew_packages:
   - name: graphviz
   - { name: guetzli, state: absent, install_options: force }
   - { name: heroku, state: absent, install_options: force }
+  - name: iproute2mac
   - name: jq
   - { name: kibana, state: absent, install_options: force }
   - { name: kibana@5.6, state: absent, install_options: force }
