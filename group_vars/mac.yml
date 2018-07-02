@@ -61,6 +61,7 @@ homebrew_packages:
 pip_packages:
   - name: ansible
   - name: awscli
+  - name: aws-shell
   - { name: aws-sam-cli, state: absent }
   - { name: beautifulsoup4, state: absent }
   - name: boto
