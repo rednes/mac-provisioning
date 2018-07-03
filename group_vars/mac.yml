@@ -54,7 +54,7 @@ homebrew_packages:
   - name: travis
   - name: tree
   - name: vagrant-completion
-  - name: vim
+  - { name: vim, installoptions: without-python }
   - name: wget
   - name: zsh
 
