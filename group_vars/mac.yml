@@ -70,6 +70,7 @@ pip_packages:
   - { name: django, state: absent }
   - name: jinja2
   - name: json2yaml
+  - name: jupyter
   - { name: localstack, state: absent }
   - { name: numpy, state: absent }
   - name: pip
