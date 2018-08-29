@@ -96,6 +96,7 @@ nodebrew:
     - version: v9.4.0
 
 npm_packages:
+  - name: aws-cdk
   - name: aws-sam-local
   - name: npm@lts
   - name: npm-check-updates
