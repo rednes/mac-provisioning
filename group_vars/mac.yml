@@ -102,6 +102,7 @@ npm_packages:
   - name: jsonlint
   - name: npm@lts
   - name: npm-check-updates
+  - name: swagger
   - name: textlint
   - name: textlint-rule-max-ten
   - name: textlint-rule-no-mix-dearu-desumasu
