@@ -99,6 +99,7 @@ nodebrew:
 npm_packages:
   - name: aws-cdk
   - name: aws-sam-local
+  - name: cfn-lint
   - name: jsonlint
   - name: npm@lts
   - name: npm-check-updates
