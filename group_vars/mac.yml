@@ -27,6 +27,7 @@ homebrew_packages:
   - { name: kibana, state: absent, install_options: force }
   - { name: kibana@5.6, state: absent, install_options: force }
   - { name: kibana@4.4, state: absent, install_options: force }
+  - name: kubectl
   - name: less
   - name: lv
   - name: mecab
@@ -83,6 +84,7 @@ pip_packages:
 
 homebrew_cask_packages:
   - name: docker-toolbox
+  - name: minikube
 
 rbenv:
   default_ruby: 2.4.1
