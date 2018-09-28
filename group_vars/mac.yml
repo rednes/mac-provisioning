@@ -43,12 +43,12 @@ homebrew_packages:
   - name: plantuml
   - name: pkg-config
   - name: postgresql
-  - { name: pyenv, state: absent, installoptions: force }
+  - { name: pyenv, state: absent, install_options: force }
   - name: python
   - name: rbenv
   - name: ruby-build
   - name: screen
-  - { name: sphinx, state: absent, installoptions: force }
+  - { name: sphinx, state: absent, install_options: force }
   - name: sqlite
   - name: terraform
   - name: tig
@@ -56,7 +56,7 @@ homebrew_packages:
   - name: travis
   - name: tree
   - name: vagrant-completion
-  - { name: vim, installoptions: without-python }
+  - { name: vim, install_options: without-python }
   - name: wget
   - name: zsh
 
