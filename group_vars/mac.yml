@@ -64,7 +64,7 @@ pip_packages:
   - name: ansible
   - name: awscli
   - name: aws-shell
-  - { name: aws-sam-cli, state: absent }
+  - name: aws-sam-cli
   - { name: beautifulsoup4, state: absent }
   - name: boto
   - name: boto3
@@ -100,7 +100,7 @@ nodebrew:
 
 npm_packages:
   - name: aws-cdk
-  - name: aws-sam-local
+  - { name: aws-sam-local, state: absent }
   - name: cfn-lint
   - name: jsonlint
   - name: npm@lts
