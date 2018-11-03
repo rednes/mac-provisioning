@@ -40,6 +40,7 @@ homebrew_packages:
   - name: openssl
   - name: packer
   - { name: phantomjs, state: absent, install_options: force }
+  - name: pipenv
   - name: plantuml
   - name: pkg-config
   - name: postgresql
