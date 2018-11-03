@@ -31,7 +31,7 @@ homebrew_packages:
   - name: less
   - name: lv
   - name: mecab
-  - name: mongodb
+  - { name: mongodb, state: absent, install_options: force }
   - name: mysql
   - name: nmap
   - { name: node, state: absent, install_options: force }
