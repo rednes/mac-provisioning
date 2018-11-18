@@ -40,13 +40,13 @@ homebrew_packages:
   - name: openssl
   - name: packer
   - { name: phantomjs, state: absent, install_options: force }
-  - name: pipenv
+  - { name: pipenv, state: absent, install_options: force }
   - name: plantuml
   - name: pkg-config
   - name: postgresql
   - { name: pyenv, state: absent, install_options: force }
   - name: python@2
-  - name: python
+  - { name: python, state: present }
   - name: rbenv
   - name: ruby-build
   - name: screen
@@ -79,6 +79,7 @@ pip_packages:
   - { name: localstack, state: absent }
   - { name: numpy, state: absent }
   - name: pip
+  - { name: pipenv, state: present }
   - { name: pymongo, state: absent }
   - { name: robobrowser, state: absent }
   - { name: scrapy, state: absent }
