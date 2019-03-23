@@ -46,7 +46,7 @@ homebrew_packages:
   - name: postgresql
   - { name: pyenv, state: absent, install_options: force }
   - name: python@2
-  - { name: python, state: present }
+  - name: python
   - name: rbenv
   - name: ruby-build
   - name: screen
@@ -79,7 +79,7 @@ pip_packages:
   - { name: localstack, state: absent }
   - { name: numpy, state: absent }
   - name: pip
-  - { name: pipenv, state: present }
+  - name: pipenv
   - { name: pymongo, state: absent }
   - { name: robobrowser, state: absent }
   - { name: scrapy, state: absent }
