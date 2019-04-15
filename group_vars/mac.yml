@@ -52,7 +52,8 @@ homebrew_packages:
   - name: screen
   - { name: sphinx, state: absent, install_options: force }
   - name: sqlite
-  - name: terraform
+  - { name: terraform, state: absent, install_options: force }
+  - name: tfenv
   - name: tig
   - name: tmux
   - name: travis
