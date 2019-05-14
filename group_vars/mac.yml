@@ -97,11 +97,11 @@ rbenv:
     - version: 2.4.1
 
 nodebrew:
-  default_node: v8.10.0
+  default_node: v10.15.3
   nodes:
     - version: v6.10.3
     - version: v8.10.0
-    - version: v9.4.0
+    - version: v10.15.3
 
 npm_packages:
   - name: aws-cdk
