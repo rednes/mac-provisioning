@@ -9,7 +9,7 @@ homebrew_packages:
   - { name: ansible, state: absent, install_options: force }
   - name: autojump
   - name: aws-iam-authenticator
-  - name: chromedriver
+  - { name: chromedriver, state: absent, install_options: force}
   - name: colordiff
   - name: direnv
   - name: editorconfig
