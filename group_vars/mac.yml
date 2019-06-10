@@ -2,14 +2,17 @@
 
 homebrew_taps:
   - tap: homebrew/cask
+  - tap: weaveworks/tap
   - tap: kyoshidajp/ghkw
 
 homebrew_packages:
   - { name: ansible, state: absent, install_options: force }
   - name: autojump
+  - name: aws-iam-authenticator
   - name: chromedriver
   - name: colordiff
   - name: editorconfig
+  - name: eksctl
   - name: emacs
   - name: fish
   - name: fzf
@@ -28,6 +31,7 @@ homebrew_packages:
   - { name: kibana@5.6, state: absent, install_options: force }
   - { name: kibana@4.4, state: absent, install_options: force }
   - name: kubectl
+  - name: kubernetes-helm
   - name: less
   - name: lv
   - name: mecab
