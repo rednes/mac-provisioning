@@ -93,7 +93,6 @@ pip_packages:
   - name: sphinx
 
 homebrew_cask_packages:
-  - name: docker-toolbox
   - name: minikube
 
 rbenv:
