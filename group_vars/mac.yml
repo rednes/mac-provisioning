@@ -65,6 +65,7 @@ homebrew_packages:
   - name: tree
   - name: vagrant-completion
   - name: vim
+  - name: watch
   - name: wget
   - name: zsh
 
