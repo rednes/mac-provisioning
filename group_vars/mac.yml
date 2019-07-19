@@ -4,9 +4,11 @@ homebrew_taps:
   - tap: homebrew/cask
   - tap: weaveworks/tap
   - tap: kyoshidajp/ghkw
+  - tap: remind101/formulae
 
 homebrew_packages:
   - { name: ansible, state: absent, install_options: force }
+  - name: assume-role
   - name: autojump
   - name: aws-iam-authenticator
   - { name: chromedriver, state: absent, install_options: force}
