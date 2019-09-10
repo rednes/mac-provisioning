@@ -111,6 +111,7 @@ nodebrew:
     - version: v10.15.3
 
 npm_packages:
+  - name: "@angular/cli"
   - name: aws-cdk
   - { name: aws-sam-local, state: absent }
   - { name: cfn-lint, state: absent }
