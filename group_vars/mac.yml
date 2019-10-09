@@ -55,6 +55,7 @@ homebrew_packages:
   - name: python@2
   - name: python
   - name: rbenv
+  - name: redis
   - name: ruby-build
   - name: screen
   - { name: sphinx, state: absent, install_options: force }
