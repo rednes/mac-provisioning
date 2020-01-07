@@ -83,6 +83,7 @@ pip_packages:
   - name: boto3
   - name: cfn_flip
   - name: cfn-lint
+  - name: csvkit
   - { name: django, state: absent }
   - name: jinja2
   - name: json2yaml
