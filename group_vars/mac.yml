@@ -7,7 +7,7 @@ homebrew_taps:
   - tap: remind101/formulae
 
 homebrew_packages:
-  - name: ansible
+  - { name: ansible, state: present }
   - name: assume-role
   - name: autojump
   - name: aws-iam-authenticator
