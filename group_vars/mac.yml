@@ -120,6 +120,7 @@ npm_packages:
   - name: aws-cdk
   - { name: aws-sam-local, state: absent }
   - { name: cfn-lint, state: absent }
+  - name: eslint
   - name: jsonlint
   - name: npm@lts
   - name: npm-check-updates
