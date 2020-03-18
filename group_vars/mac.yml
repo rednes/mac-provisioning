@@ -85,6 +85,7 @@ pip_packages:
   - name: cfn-lint
   - name: csvkit
   - { name: django, state: absent }
+  - name: git-remote-codecommit
   - name: jinja2
   - name: json2yaml
   - name: jupyter
