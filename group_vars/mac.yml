@@ -117,7 +117,7 @@ nodebrew:
 
 npm_packages:
   - name: "@aws-amplify/cli"
-  - name: "@angular/cli"
+  - name: "@angular/cli@v8-lts"
   - name: aws-cdk
   - { name: aws-sam-local, state: absent }
   - { name: cfn-lint, state: absent }
