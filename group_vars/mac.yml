@@ -102,6 +102,7 @@ pip_packages:
 homebrew_cask_packages:
   - { name: keepassxc, state: upgraded }
   - { name: minikube, state: upgraded }
+  - name: skitch
 
 rbenv:
   default_ruby: 2.6.3
