@@ -102,6 +102,7 @@ pip_packages:
 homebrew_cask_packages:
   - name: appcleaner
   - { name: dbeaver-community, state: upgraded }
+  - { name: emacs, state: upgraded }
   - { name: keepassxc, state: upgraded }
   - { name: minikube, state: upgraded }
   - name: skitch
