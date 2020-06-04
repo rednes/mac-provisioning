@@ -107,6 +107,7 @@ homebrew_cask_packages:
   - { name: grammarly, state: upgraded }
   - { name: keepassxc, state: upgraded }
   - { name: minikube, state: upgraded }
+  - name: postman
   - name: skitch
 
 rbenv:
