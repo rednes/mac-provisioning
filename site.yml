@@ -3,8 +3,13 @@
   connection: local
   gather_facts: False
   roles:
-    - homebrew
-    - pip
-    - rbenv
-    - nodebrew
-    - npm
+    - role: homebrew
+      tags: homebrew
+    - role: pip
+      tags: pip
+    - role: rbenv
+      tags: rbenv
+    - role: nodebrew
+      tags: nodebrew
+    - role: npm
+      tags: npm
