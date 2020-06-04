@@ -100,8 +100,8 @@ pip_packages:
   - name: sphinx
 
 homebrew_cask_packages:
-  - name: minikube
-  - name: keepassxc
+  - { name: keepassxc, state: upgraded }
+  - { name: minikube, state: upgraded }
 
 rbenv:
   default_ruby: 2.6.3
