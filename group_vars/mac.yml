@@ -100,6 +100,7 @@ pip_packages:
   - name: sphinx
 
 homebrew_cask_packages:
+  - name: appcleaner
   - { name: keepassxc, state: upgraded }
   - { name: minikube, state: upgraded }
   - name: skitch
