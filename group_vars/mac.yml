@@ -105,6 +105,7 @@ homebrew_cask_packages:
   - { name: dbeaver-community, state: upgraded }
   - { name: emacs, state: upgraded }
   - { name: grammarly, state: upgraded }
+  - name: jetbrains-toolbox
   - { name: keepassxc, state: upgraded }
   - { name: minikube, state: upgraded }
   - name: postman
