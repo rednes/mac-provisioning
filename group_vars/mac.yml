@@ -108,6 +108,7 @@ homebrew_cask_packages:
   - name: jetbrains-toolbox
   - { name: keepassxc, state: upgraded }
   - { name: minikube, state: upgraded }
+  - { name: notion, state: upgraded }
   - name: postman
   - name: skitch
 
