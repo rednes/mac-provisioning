@@ -39,6 +39,7 @@ homebrew_packages:
   - name: lv
   - name: maven
   - name: mecab
+  - name: mkcert
   - { name: mongodb, state: absent, install_options: force }
   - name: mysql
   - name: nmap
