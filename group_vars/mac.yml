@@ -24,6 +24,7 @@ homebrew_packages:
   - name: git-secrets
   - name: gnuplot
   - name: go
+  - name: gradle
   - name: graphviz
   - { name: guetzli, state: absent, install_options: force }
   - { name: heroku, state: absent, install_options: force }
