@@ -59,6 +59,7 @@ homebrew_packages:
   - name: python@3.7
   - name: python@3.8
   - name: python@3.9
+  - name: rain
   - name: rbenv
   - name: redis
   - name: ruby-build
