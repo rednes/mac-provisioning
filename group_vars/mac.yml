@@ -150,5 +150,5 @@ npm_packages:
   - name: textlint-rule-no-mix-dearu-desumasu
   - name: textlint-rule-spellcheck-tech-word
   - { name: typescript, state: absent }
-  - name: webpack
-  - name: webpack-cli
+  - { name: webpack, state: absent }
+  - { name: webpack-cli, state: absent }
