@@ -56,7 +56,9 @@ homebrew_packages:
   - name: pkg-config
   - name: postgresql
   - { name: pyenv, state: absent, install_options: force }
-  - name: python
+  - name: python@3.7
+  - name: python@3.8
+  - name: python@3.9
   - name: rbenv
   - name: redis
   - name: ruby-build
