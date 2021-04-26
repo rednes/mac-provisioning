@@ -26,7 +26,7 @@ homebrew_packages:
   - name: gnuplot
   - name: go
   - name: gradle
-  - name: graphviz
+  - { name: graphviz, state: absent, install_options: farce }
   - { name: guetzli, state: absent, install_options: force }
   - { name: heroku, state: absent, install_options: force }
   - name: iproute2mac
