@@ -151,4 +151,5 @@ npm_packages:
   - { name: typescript, state: absent }
   - { name: webpack, state: absent }
   - { name: webpack-cli, state: absent }
+  - name: wscat
   - name: yarn
