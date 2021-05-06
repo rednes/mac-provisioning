@@ -136,7 +136,7 @@ npm_packages:
   - name: "@aws-amplify/cli"
   - name: "@angular/cli@v8-lts"
   - name: auth0-deploy-cli
-  - name: aws-cdk
+  - { name: aws-cdk, state: absent }
   - { name: aws-sam-local, state: absent }
   - { name: cfn-lint, state: absent }
   - name: eslint
