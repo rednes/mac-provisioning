@@ -153,4 +153,4 @@ npm_packages:
   - { name: webpack, state: absent }
   - { name: webpack-cli, state: absent }
   - name: wscat
-  - name: yarn
+  - name: yarn@berry
