@@ -6,6 +6,7 @@ homebrew_taps:
   - tap: kyoshidajp/ghkw
   - tap: remind101/formulae
   - tap: aws/tap
+  - tap: nektos/tap
 
 homebrew_packages:
   - { name: ansible, state: present }
@@ -79,6 +80,8 @@ homebrew_packages:
   - name: zsh
   # aws/tap
   - name: aws-sam-cli
+  # nektos/tap
+  - name: nektos/tap/act
 
 pip_packages:
   - { name: ansible, state: absent }
