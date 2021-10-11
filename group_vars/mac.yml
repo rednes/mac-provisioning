@@ -145,7 +145,7 @@ npm_packages:
   - { name: cfn-lint, state: absent }
   - name: eslint
   - name: jsonlint
-  - name: npm@lts
+  - name: npm
   - name: npm-check-updates
   - name: swagger
   - name: textlint
