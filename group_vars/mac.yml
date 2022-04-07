@@ -114,7 +114,6 @@ homebrew_cask_packages:
   - { name: amazon-chime, state: upgraded }
   - name: appcleaner
   - { name: dbeaver-community, state: upgraded }
-  - { name: emacs, state: upgraded }
   - { name: grammarly, state: upgraded }
   - name: jetbrains-toolbox
   - { name: keepassxc, state: upgraded }
