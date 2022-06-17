@@ -119,9 +119,9 @@ homebrew_cask_packages:
   - name: typora
 
 rbenv:
-  default_ruby: 2.6.3
+  default_ruby: 2.7.6
   rubies:
-    - version: 2.6.3
+    - version: 2.7.6
 
 nodebrew:
   default_node: v14.15.4
