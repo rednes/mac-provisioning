@@ -124,11 +124,10 @@ rbenv:
     - version: 2.7.6
 
 nodebrew:
-  default_node: v14.15.4
+  default_node: v16.15.1
   nodes:
-    - version: v10.15.3
-    - version: v12.18.2
     - version: v14.15.4
+    - version: v16.15.1
 
 npm_packages:
   - name: "@aws-amplify/cli"
