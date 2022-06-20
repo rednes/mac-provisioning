@@ -117,6 +117,7 @@ homebrew_cask_packages:
   - { name: notion, state: upgraded }
   - name: postman
   - name: skitch
+  - name: thunderbird
   - name: typora
 
 rbenv:
