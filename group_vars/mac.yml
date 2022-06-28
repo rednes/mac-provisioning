@@ -108,6 +108,7 @@ homebrew_cask_packages:
   - name: appcleaner
   - { name: dbeaver-community, state: upgraded }
   - name: deepl
+  - name: disk-inventory-x
   - { name: dropbox, state: upgraded }
   - { name: grammarly, state: upgraded }
   - name: jetbrains-toolbox
