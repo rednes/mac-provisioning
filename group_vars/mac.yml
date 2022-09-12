@@ -97,7 +97,7 @@ pip_packages:
   - name: git-remote-codecommit
   - name: jinja2
   - name: json2yaml
-  - name: jupyter
+  - { name: jupyter, state: absent }
   - { name: localstack, state: absent }
   - { name: numpy, state: absent }
   - name: pip
