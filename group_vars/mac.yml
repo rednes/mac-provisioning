@@ -5,6 +5,7 @@ homebrew_taps:
   - tap: weaveworks/tap
   - tap: kyoshidajp/ghkw
   - tap: aws/tap
+  - tap: sachaos/todoist
 
 homebrew_packages:
   - name: act
@@ -75,6 +76,8 @@ homebrew_packages:
   - name: zsh
   # aws/tap
   - name: aws-sam-cli
+  # sachaos/todoist
+  - name: todoist
 
 pip_packages:
   - { name: ansible, state: absent }
@@ -119,6 +122,7 @@ homebrew_cask_packages:
   - name: postman
   - name: skitch
   - name: thunderbird
+  - name: todoist
   - name: typora
 
 rbenv:
