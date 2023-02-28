@@ -9,6 +9,7 @@ homebrew_taps:
 
 homebrew_packages:
   - name: act
+  - name: amazon-ecs-cli
   - { name: ansible, state: present }
   - name: autojump
   - name: aws-iam-authenticator
