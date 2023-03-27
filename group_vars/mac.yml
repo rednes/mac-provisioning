@@ -125,7 +125,6 @@ homebrew_cask_packages:
   - name: skitch
   - name: thunderbird
   - name: todoist
-  - name: typora
 
 rbenv:
   default_ruby: 2.7.6
