@@ -21,6 +21,7 @@ homebrew_packages:
   - name: findutils
   - name: fish
   - name: fzf
+  - name: gh
   - name: ghkw
   - name: git
   - name: git-secrets
