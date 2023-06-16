@@ -147,6 +147,7 @@ npm_packages:
   - { name: aws-sam-local, state: absent }
   - { name: cfn-lint, state: absent }
   - name: eslint
+  - name: fastify-cli
   - name: jsonlint
   - name: npm
   - name: npm-check-updates
