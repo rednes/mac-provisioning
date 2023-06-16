@@ -20,6 +20,7 @@ homebrew_packages:
   - name: emacs
   - name: findutils
   - name: fish
+  - name: ffmpeg
   - name: fzf
   - name: gh
   - name: ghkw
