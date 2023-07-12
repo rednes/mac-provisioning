@@ -124,6 +124,7 @@ homebrew_cask_packages:
   - { name: ngrok, state: upgraded }
   - { name: notion, state: upgraded }
   - name: postman
+  - name: postman-agent
   - name: rancher
   - name: skitch
   - name: thunderbird
