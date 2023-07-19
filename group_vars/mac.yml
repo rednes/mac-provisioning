@@ -113,6 +113,7 @@ pip_packages:
 homebrew_cask_packages:
   - { name: amazon-chime, state: upgraded }
   - name: appcleaner
+  - name: authy
   - { name: dbeaver-community, state: upgraded }
   - name: deepl
   - name: disk-inventory-x
