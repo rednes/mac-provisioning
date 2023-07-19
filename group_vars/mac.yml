@@ -117,6 +117,7 @@ homebrew_cask_packages:
   - name: camo-studio
   - { name: dbeaver-community, state: upgraded }
   - name: deepl
+  - name: discord
   - name: disk-inventory-x
   - name: drawio
   - { name: dropbox, state: upgraded }
