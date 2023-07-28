@@ -124,6 +124,7 @@ homebrew_cask_packages:
   - { name: grammarly, state: upgraded }
   - name: jetbrains-toolbox
   - { name: keepassxc, state: upgraded }
+  - { name: miro, state: upgraded }
   - { name: ngrok, state: upgraded }
   - { name: notion, state: upgraded }
   - name: postman
