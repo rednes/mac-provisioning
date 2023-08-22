@@ -5,6 +5,7 @@ homebrew_taps:
   - tap: weaveworks/tap
   - tap: kyoshidajp/ghkw
   - tap: sachaos/todoist
+  - tap: goodwithtech/r
 
 homebrew_packages:
   - name: act
@@ -78,6 +79,8 @@ homebrew_packages:
   - name: zsh
   # sachaos/todoist
   - name: todoist
+  # goodwithtech/r
+  - name: dockle
 
 pip_packages:
   - { name: ansible, state: absent }
