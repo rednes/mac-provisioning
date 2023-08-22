@@ -4,7 +4,6 @@ homebrew_taps:
   - tap: homebrew/cask
   - tap: weaveworks/tap
   - tap: kyoshidajp/ghkw
-  - tap: aws/tap
   - tap: sachaos/todoist
 
 homebrew_packages:
@@ -77,8 +76,6 @@ homebrew_packages:
   - name: watch
   - name: wget
   - name: zsh
-  # aws/tap
-  - name: aws-sam-cli
   # sachaos/todoist
   - name: todoist
 
