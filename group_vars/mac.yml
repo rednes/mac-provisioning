@@ -122,6 +122,7 @@ homebrew_cask_packages:
   - name: discord
   - name: disk-inventory-x
   - name: drawio
+  - name: figma
   - { name: grammarly, state: upgraded }
   - name: jetbrains-toolbox
   - { name: keepassxc, state: upgraded }
