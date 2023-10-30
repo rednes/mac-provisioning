@@ -27,6 +27,7 @@ homebrew_packages:
   - name: gh
   - name: ghkw
   - name: git
+  - name: git-flow-avh
   - name: git-secrets
   - name: gnuplot
   - name: go
