@@ -7,6 +7,7 @@ homebrew_taps:
   - tap: kyoshidajp/ghkw
   - tap: sachaos/todoist
   - tap: goodwithtech/r
+  - tap: classmethod/repos
 
 homebrew_packages:
   - name: act
@@ -83,6 +84,8 @@ homebrew_packages:
   - name: todoist
   # goodwithtech/r
   - name: dockle
+  # classmethod/repos
+  - name: aurl
 
 pip_packages:
   - { name: ansible, state: absent }
