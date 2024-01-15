@@ -138,6 +138,7 @@ homebrew_cask_packages:
   - { name: qr-journal, state: upgraded }
   - name: rancher
   - name: skitch
+  - name: skype
   - name: thunderbird
   - name: todoist
 
