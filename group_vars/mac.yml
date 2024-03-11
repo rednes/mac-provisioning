@@ -34,7 +34,6 @@ homebrew_packages:
   - name: go
   - name: gradle
   - { name: guetzli, state: absent, install_options: force }
-  - { name: heroku, state: absent, install_options: force }
   - name: iproute2mac
   - name: jq
   - { name: jsonlint, state: absent, install_options: force }
