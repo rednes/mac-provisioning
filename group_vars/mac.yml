@@ -84,7 +84,6 @@ homebrew_packages:
   - name: aurl
 
 pip_packages:
-  - { name: awscli, state: absent }
   - name: awscurl
   - { name: aws-shell, state: absent }
   - { name: aws-sam-cli, state: absent }
