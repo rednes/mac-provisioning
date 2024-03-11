@@ -37,9 +37,6 @@ homebrew_packages:
   - name: iproute2mac
   - name: jq
   - { name: jsonlint, state: absent, install_options: force }
-  - { name: kibana, state: absent, install_options: force }
-  - { name: kibana@5.6, state: absent, install_options: force }
-  - { name: kibana@4.4, state: absent, install_options: force }
   - name: kubectl
   - name: kubectx
   - name: kubernetes-helm
