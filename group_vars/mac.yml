@@ -49,7 +49,6 @@ homebrew_packages:
   - name: mecab
   - name: minikube
   - name: mkcert
-  - { name: mongodb, state: absent, install_options: force }
   - name: mysql
   - name: nmap
   - { name: node, state: absent, install_options: force }
