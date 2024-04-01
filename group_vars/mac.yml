@@ -15,7 +15,6 @@ homebrew_packages:
   - { name: ansible, state: present }
   - name: autojump
   - name: aws-iam-authenticator
-  - name: aws-vault
   - { name: chromedriver, state: absent, install_options: force}
   - name: colordiff
   - name: direnv
@@ -113,6 +112,7 @@ homebrew_cask_packages:
   - { name: amazon-chime, state: upgraded }
   - name: appcleaner
   - name: authy
+  - name: aws-vault
   - name: camo-studio
   - { name: dbeaver-community, state: upgraded }
   - name: deepl
