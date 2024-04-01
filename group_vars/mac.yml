@@ -15,7 +15,6 @@ homebrew_packages:
   - { name: ansible, state: present }
   - name: autojump
   - name: aws-iam-authenticator
-  - { name: chromedriver, state: absent, install_options: force}
   - name: colordiff
   - name: direnv
   - name: editorconfig
@@ -55,7 +54,7 @@ homebrew_packages:
   - { name: pipenv, state: absent, install_options: force }
   - name: plantuml
   - name: pkg-config
-  - name: postgresql
+  - name: postgresql@14
   - { name: pyenv, state: absent, install_options: force }
   - name: python
   - name: rain
