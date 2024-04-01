@@ -52,7 +52,6 @@ homebrew_packages:
   - name: octave
   - name: openssl
   - name: packer
-  - { name: phantomjs, state: absent, install_options: force }
   - { name: pipenv, state: absent, install_options: force }
   - name: plantuml
   - name: pkg-config
