@@ -18,7 +18,6 @@ homebrew_packages:
   - name: colordiff
   - name: direnv
   - name: editorconfig
-  - name: emacs
   - name: findutils
   - name: fish
   - name: ffmpeg
