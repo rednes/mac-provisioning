@@ -32,12 +32,12 @@ homebrew_packages:
   - name: go
   - name: gradle
   - { name: guetzli, state: absent, install_options: force }
+  - name: helm
   - name: iproute2mac
   - name: jq
   - { name: jsonlint, state: absent, install_options: force }
   - name: kubectl
   - name: kubectx
-  - name: kubernetes-helm
   - name: less
   - name: lv
   - name: maven
