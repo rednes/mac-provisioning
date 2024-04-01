@@ -74,11 +74,11 @@ homebrew_packages:
   - name: wget
   - name: zsh
   # sachaos/todoist
-  - name: todoist
+  - name: sachaos/todoist/todoist
   # goodwithtech/r
-  - name: dockle
+  - name: goodwithtech/r/dockle
   # classmethod/repos
-  - name: aurl
+  - name: classmethod/repos/aurl
 
 pip_packages:
   - name: awscurl
