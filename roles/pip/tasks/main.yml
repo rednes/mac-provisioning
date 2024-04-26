@@ -2,5 +2,5 @@
   pip:
     name: '{{ item.name }}'
     state: '{{ item.state | default("latest") }}'
-    executable: '{{item.executable | default("pip3")}}'
+    virtualenv: '~/.virtualenv'
   with_items: '{{ pip_packages }}'
