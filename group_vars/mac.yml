@@ -135,10 +135,10 @@ rbenv:
     - version: 2.7.6
 
 nodebrew:
-  default_node: v18.17.1
+  default_node: v20.13.1
   nodes:
-    - version: v16.19.1
     - version: v18.17.1
+    - version: v20.13.1
 
 npm_packages:
   - name: "@aws-amplify/cli"
