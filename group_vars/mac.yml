@@ -108,7 +108,6 @@ pip_packages:
 homebrew_cask_packages:
   - { name: amazon-chime, state: upgraded }
   - name: appcleaner
-  - name: authy
   - name: aws-vault
   - name: camo-studio
   - { name: dbeaver-community, state: upgraded }
