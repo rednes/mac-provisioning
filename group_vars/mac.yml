@@ -110,7 +110,6 @@ homebrew_cask_packages:
   - name: disk-inventory-x
   - name: drawio
   - name: figma
-  - { name: grammarly, state: upgraded }
   - name: jetbrains-toolbox
   - { name: keepassxc, state: upgraded }
   - { name: miro, state: upgraded }
@@ -121,7 +120,6 @@ homebrew_cask_packages:
   - name: postman-agent
   - { name: qr-journal, state: upgraded }
   - name: rancher
-  - name: skitch
   - name: skype
   - name: thunderbird
   - name: todoist
