@@ -65,7 +65,6 @@ homebrew_packages:
   - name: tmux
   - name: travis
   - name: tree
-  - name: vagrant-completion
   - name: watch
   - name: wget
   - name: zsh
