@@ -1,8 +1,6 @@
 # The variables file used by the playbooks in the mac group.
 
 homebrew_taps:
-  - tap: homebrew/core
-  - tap: homebrew/cask
   - tap: weaveworks/tap
   - tap: kyoshidajp/ghkw
   - tap: sachaos/todoist
