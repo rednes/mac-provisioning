@@ -115,6 +115,7 @@ homebrew_cask_packages:
   - name: google-japanese-ime
   - name: jetbrains-toolbox
   - { name: keepassxc, state: upgraded }
+  - { name: libreoffice, state: upgraded }
   - { name: miro, state: upgraded }
   - { name: ngrok, state: upgraded }
   - { name: notion, state: upgraded }
