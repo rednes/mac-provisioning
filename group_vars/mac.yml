@@ -110,6 +110,7 @@ homebrew_cask_packages:
   - name: disk-inventory-x
   - name: drawio
   - name: figma
+  - name: firefox
   - name: jetbrains-toolbox
   - { name: keepassxc, state: upgraded }
   - { name: miro, state: upgraded }
