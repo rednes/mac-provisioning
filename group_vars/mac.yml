@@ -111,6 +111,7 @@ homebrew_cask_packages:
   - name: drawio
   - name: figma
   - name: firefox
+  - name: google-chrome
   - name: jetbrains-toolbox
   - { name: keepassxc, state: upgraded }
   - { name: miro, state: upgraded }
