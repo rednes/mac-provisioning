@@ -113,6 +113,7 @@ homebrew_cask_packages:
   - name: firefox
   - name: google-chrome
   - name: google-japanese-ime
+  - name: iterm2
   - name: jetbrains-toolbox
   - { name: keepassxc, state: upgraded }
   - { name: libreoffice, state: upgraded }
