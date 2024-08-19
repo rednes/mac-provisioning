@@ -107,13 +107,13 @@ homebrew_cask_packages:
   - { name: dbeaver-community, state: upgraded }
   - name: deepl
   - name: discord
-  - name: disk-inventory-x
+  - { name: disk-inventory-x, state: upgraded }
   - name: drawio
   - name: figma
   - name: firefox
   - name: google-chrome
-  - name: google-japanese-ime
-  - name: iterm2
+  - { name: google-japanese-ime, state: upgraded }
+  - { name: iterm2, state: upgraded }
   - name: jetbrains-toolbox
   - { name: keepassxc, state: upgraded }
   - { name: libreoffice, state: upgraded }
