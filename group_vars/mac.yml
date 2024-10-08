@@ -115,6 +115,7 @@ homebrew_cask_packages:
   - { name: iterm2, state: upgraded }
   - name: jetbrains-toolbox
   - { name: keepassxc, state: upgraded }
+  - { name: krista, state: upgraded }
   - { name: libreoffice, state: upgraded }
   - { name: microsoft-remote-desktop, state: upgraded }
   - { name: miro, state: upgraded }
