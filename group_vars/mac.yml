@@ -116,7 +116,7 @@ homebrew_cask_packages:
   - name: jetbrains-toolbox
   - { name: keepassxc, state: upgraded }
   - { name: libreoffice, state: upgraded }
-  - { name: microsoft-remote-desktop, state: upgradded }
+  - { name: microsoft-remote-desktop, state: upgraded }
   - { name: miro, state: upgraded }
   - { name: ngrok, state: upgraded }
   - { name: notion, state: upgraded }
