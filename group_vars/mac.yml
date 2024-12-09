@@ -56,7 +56,6 @@ homebrew_packages:
   - name: redis
   - name: ruby-build
   - name: screen
-  - { name: sphinx, state: absent, install_options: force }
   - name: sqlite
   - name: tfenv
   - name: tig
