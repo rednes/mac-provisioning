@@ -56,7 +56,6 @@ homebrew_packages:
   - name: redis
   - name: ruby-build
   - name: screen
-  - name: sqlite
   - name: tfenv
   - name: tig
   - name: tmux
