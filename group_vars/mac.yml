@@ -19,7 +19,6 @@ homebrew_packages:
   - name: findutils
   - name: fish
   - name: ffmpeg
-  - name: fzf
   - name: gh
   - name: ghkw
   - name: git
