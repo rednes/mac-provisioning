@@ -26,7 +26,6 @@ homebrew_packages:
   - name: gnuplot
   - name: go
   - name: gradle
-  - { name: guetzli, state: absent, install_options: force }
   - name: helm
   - name: iproute2mac
   - name: jq
