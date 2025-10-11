@@ -41,7 +41,6 @@ homebrew_packages:
   - name: nmap
   - { name: node, state: absent, install_options: force }
   - name: nodebrew
-  - name: octave
   - name: openssl
   - { name: pipenv, state: absent, install_options: force }
   - name: plantuml
