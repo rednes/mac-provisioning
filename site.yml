@@ -7,7 +7,5 @@
       tags: homebrew
     - role: pip
       tags: pip
-    - role: rbenv
-      tags: rbenv
     - role: npm
       tags: npm

@@ -124,11 +124,6 @@ homebrew_cask_packages:
   - name: thunderbird
   - name: todoist
 
-rbenv:
-  default_ruby: 2.7.6
-  rubies:
-    - version: 2.7.6
-
 npm_packages:
   - name: "@aws-amplify/cli"
   - name: "@angular/cli@v8-lts"
