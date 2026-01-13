@@ -39,8 +39,7 @@ homebrew_packages:
   - name: mkcert
   - name: mysql
   - name: nmap
-  - { name: node, state: absent, install_options: force }
-  - name: nodebrew
+  - name: node
   - name: openssl
   - { name: pipenv, state: absent, install_options: force }
   - name: plantuml
@@ -129,12 +128,6 @@ rbenv:
   default_ruby: 2.7.6
   rubies:
     - version: 2.7.6
-
-nodebrew:
-  default_node: v20.13.1
-  nodes:
-    - version: v18.17.1
-    - version: v20.13.1
 
 npm_packages:
   - name: "@aws-amplify/cli"

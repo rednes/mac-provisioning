@@ -9,7 +9,5 @@
       tags: pip
     - role: rbenv
       tags: rbenv
-    - role: nodebrew
-      tags: nodebrew
     - role: npm
       tags: npm
