@@ -42,7 +42,7 @@ homebrew_packages:
   - name: mkcert
   - name: mysql
   - name: nmap
-  - name: node
+  - name: node@24
   - name: openssl
   - { name: pipenv, state: absent, install_options: force }
   - name: plantuml
