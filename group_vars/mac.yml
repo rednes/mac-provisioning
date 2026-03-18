@@ -13,6 +13,8 @@ homebrew_packages:
   - { name: ansible, state: present }
   - name: autojump
   - name: aws-iam-authenticator
+  - name: awscurl
+  - name: cfn-lint
   - name: colordiff
   - name: direnv
   - name: editorconfig
@@ -22,6 +24,7 @@ homebrew_packages:
   - name: gh
   - name: ghkw
   - name: git
+  - name: git-remote-codecommit
   - name: git-secrets
   - name: gnuplot
   - name: go
@@ -68,18 +71,15 @@ homebrew_packages:
   - name: classmethod/repos/aurl
 
 pip_packages:
-  - name: awscurl
   - { name: aws-shell, state: absent }
   - { name: aws-sam-cli, state: absent }
   - { name: beautifulsoup4, state: absent }
   - name: boto
   - name: boto3
   - name: cfn_flip
-  - name: cfn-lint
   - name: csvkit
   - { name: django, state: absent }
   - name: ec2instanceconnectcli
-  - name: git-remote-codecommit
   - name: jinja2
   - name: json2yaml
   - { name: jupyter, state: absent }
