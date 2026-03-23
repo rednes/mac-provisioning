@@ -11,7 +11,6 @@ homebrew_packages:
   - name: act
   - name: amazon-ecs-cli
   - { name: ansible, state: present }
-  - name: autojump
   - name: aws-iam-authenticator
   - name: awscurl
   - name: cfn-lint
@@ -62,6 +61,7 @@ homebrew_packages:
   - name: tree
   - name: watch
   - name: wget
+  - name: zoxide
   - name: zsh
   # sachaos/todoist
   - name: sachaos/todoist/todoist
