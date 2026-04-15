@@ -72,7 +72,6 @@ homebrew_packages:
   - name: classmethod/repos/aurl
 
 homebrew_cask_packages:
-  - { name: amazon-chime, state: upgraded }
   - name: appcleaner
   - name: aws-vault
   - name: camo-studio
