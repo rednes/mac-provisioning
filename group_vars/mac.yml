@@ -88,7 +88,6 @@ homebrew_cask_packages:
   - name: jetbrains-toolbox
   - { name: keepassxc, state: upgraded }
   - { name: libreoffice, state: upgraded }
-  - { name: microsoft-remote-desktop, state: upgraded }
   - { name: miro, state: upgraded }
   - { name: ngrok, state: upgraded }
   - { name: notion, state: upgraded }
@@ -100,6 +99,7 @@ homebrew_cask_packages:
   - name: slack
   - name: thunderbird
   - name: todoist
+  - name: windows-app
 
 npm_packages:
   - name: "@aws-amplify/cli"
