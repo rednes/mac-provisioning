@@ -9,7 +9,6 @@ homebrew_taps:
 
 homebrew_packages:
   - name: act
-  - name: amazon-ecs-cli
   - { name: ansible, state: present }
   - name: aws-iam-authenticator
   - name: awscurl
