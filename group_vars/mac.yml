@@ -46,7 +46,6 @@ homebrew_packages:
   - { name: pipenv, state: absent, install_options: force }
   - name: plantuml
   - name: pkg-config
-  - name: postgresql@14
   - { name: pyenv, state: absent, install_options: force }
   - name: python
   - name: rain
