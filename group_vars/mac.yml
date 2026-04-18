@@ -61,6 +61,7 @@ homebrew_packages:
   - name: tmux
   - name: travis
   - name: tree
+  - name: uv
   - name: watch
   - name: wget
   - name: zoxide
