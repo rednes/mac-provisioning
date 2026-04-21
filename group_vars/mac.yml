@@ -114,6 +114,7 @@ npm_packages:
   - name: jsonlint
   - name: npm
   - name: npm-check-updates
+  - name: skills
   - name: swagger
   - name: textlint
   - name: textlint-rule-max-ten
