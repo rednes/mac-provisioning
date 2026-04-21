@@ -1,0 +1,6 @@
+- name: pipx packages install
+  community.general.pipx:
+    name: '{{ item.name }}'
+    state: '{{ item.state | default("latest") }}'
+    executable: /opt/homebrew/bin/pipx
+  with_items: '{{ pipx_packages }}'

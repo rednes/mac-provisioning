@@ -7,5 +7,7 @@
   roles:
     - role: homebrew
       tags: homebrew
+    - role: pipx
+      tags: pipx
     - role: npm
       tags: npm

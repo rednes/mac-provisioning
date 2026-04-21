@@ -1,5 +1,7 @@
 # The variables file used by the playbooks in the mac group.
 
+ansible_python_interpreter: /opt/homebrew/bin/python3
+
 homebrew_taps:
   - tap: weaveworks/tap
   - tap: kyoshidajp/ghkw
@@ -44,6 +46,7 @@ homebrew_packages:
   - name: openssl
   - { name: pipenv, state: absent, install_options: force }
   - name: plantuml
+  - name: pipx
   - name: pkg-config
   - { name: pyenv, state: absent, install_options: force }
   - name: python
@@ -121,3 +124,6 @@ npm_packages:
   - { name: webpack-cli, state: absent }
   - name: wscat
   - name: yarn
+
+pipx_packages: 
+  - name: awsume
